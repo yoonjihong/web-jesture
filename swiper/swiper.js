@@ -6,6 +6,8 @@ const sideMenuSwiper = (target, onTouchEnd) => {
   let initialTranslateX; 
   let dir = null;
 
+  // test
+
   const touchStart = (e) => {
     [startX, startY] = [e.touches[0].clientX, e.touches[0].clientY];
     [currentX, currentY] = [startX, startY];
